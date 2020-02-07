@@ -8,7 +8,8 @@ import { DefaultLayout } from "./layouts";
 import BlogOverview from "./views/BlogOverview";
 import UserProfileLite from "./views/UserProfileLite";
 import AddNewPost from "./views/AddNewPost";
-import Errors from "./views/Errors";
+import Errors from "./views/500";
+import Error404 from "./views/404";
 import ComponentsOverview from "./views/ComponentsOverview";
 import Tables from "./views/Tables";
 import BlogPosts from "./views/BlogPosts";
@@ -36,11 +37,6 @@ export default [
     component: AddNewPost
   },
   {
-    path: "/errors",
-    layout: DefaultLayout,
-    component: Errors
-  },
-  {
     path: "/components-overview",
     layout: DefaultLayout,
     component: ComponentsOverview
@@ -54,5 +50,14 @@ export default [
     path: "/blog-posts",
     layout: DefaultLayout,
     component: BlogPosts
+  },
+  {
+    path: "/error",
+    layout: DefaultLayout,
+    component: Errors
+  },
+  {
+    layout: DefaultLayout,
+    component: Error404
   }
 ];
