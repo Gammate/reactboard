@@ -1,7 +1,7 @@
 {
   "main.css": "/reactboard/static/css/main.195b64c1.chunk.css",
-  "main.js": "/reactboard/static/js/main.31c3a838.chunk.js",
-  "main.js.map": "/reactboard/static/js/main.31c3a838.chunk.js.map",
+  "main.js": "/reactboard/static/js/main.248b4670.chunk.js",
+  "main.js.map": "/reactboard/static/js/main.248b4670.chunk.js.map",
   "static/css/1.64982936.chunk.css": "/reactboard/static/css/1.64982936.chunk.css",
   "static/js/1.6b7f7995.chunk.js": "/reactboard/static/js/1.6b7f7995.chunk.js",
   "static/js/1.6b7f7995.chunk.js.map": "/reactboard/static/js/1.6b7f7995.chunk.js.map",
@@ -22,6 +22,6 @@
   "static/css/main.195b64c1.chunk.css.map": "/reactboard/static/css/main.195b64c1.chunk.css.map",
   "static/css/1.64982936.chunk.css.map": "/reactboard/static/css/1.64982936.chunk.css.map",
   "index.html": "/reactboard/index.html",
-  "precache-manifest.f1b6a9fd4c953a8df391c0a28e702619.js": "/reactboard/precache-manifest.f1b6a9fd4c953a8df391c0a28e702619.js",
+  "precache-manifest.42af93f84e6f0c42ee2bd8ad790e8c5e.js": "/reactboard/precache-manifest.42af93f84e6f0c42ee2bd8ad790e8c5e.js",
   "service-worker.js": "/reactboard/service-worker.js"
 }
