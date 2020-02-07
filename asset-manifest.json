@@ -1,10 +1,10 @@
 {
   "main.css": "/reactboard/static/css/main.195b64c1.chunk.css",
-  "main.js": "/reactboard/static/js/main.248b4670.chunk.js",
-  "main.js.map": "/reactboard/static/js/main.248b4670.chunk.js.map",
+  "main.js": "/reactboard/static/js/main.3f2f5a19.chunk.js",
+  "main.js.map": "/reactboard/static/js/main.3f2f5a19.chunk.js.map",
   "static/css/1.64982936.chunk.css": "/reactboard/static/css/1.64982936.chunk.css",
-  "static/js/1.6b7f7995.chunk.js": "/reactboard/static/js/1.6b7f7995.chunk.js",
-  "static/js/1.6b7f7995.chunk.js.map": "/reactboard/static/js/1.6b7f7995.chunk.js.map",
+  "static/js/1.9547474d.chunk.js": "/reactboard/static/js/1.9547474d.chunk.js",
+  "static/js/1.9547474d.chunk.js.map": "/reactboard/static/js/1.9547474d.chunk.js.map",
   "runtime~main.js": "/reactboard/static/js/runtime~main.83581ece.js",
   "runtime~main.js.map": "/reactboard/static/js/runtime~main.83581ece.js.map",
   "static/media/0.jpg": "/reactboard/static/media/0.73476783.jpg",
@@ -22,6 +22,6 @@
   "static/css/main.195b64c1.chunk.css.map": "/reactboard/static/css/main.195b64c1.chunk.css.map",
   "static/css/1.64982936.chunk.css.map": "/reactboard/static/css/1.64982936.chunk.css.map",
   "index.html": "/reactboard/index.html",
-  "precache-manifest.42af93f84e6f0c42ee2bd8ad790e8c5e.js": "/reactboard/precache-manifest.42af93f84e6f0c42ee2bd8ad790e8c5e.js",
+  "precache-manifest.9fc64df3ed6d88c0f99f10eeca489a70.js": "/reactboard/precache-manifest.9fc64df3ed6d88c0f99f10eeca489a70.js",
   "service-worker.js": "/reactboard/service-worker.js"
 }
