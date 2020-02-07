@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "homepage": "https://gammate.github.io/reactboard/",
+  "main": "index.js",
   "dependencies": {
     "camelize": "^1.0.0",
     "chart.js": "^2.7.3",
