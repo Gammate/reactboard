@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import routes from "./routes";
 import withTracker from "./withTracker";
@@ -8,8 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/shards-dashboards.1.1.0.css";
 
 export default () => (
-  <Router basename={process.env.REACT_APP_BASENAME || ""}>
-    <div>
+  <BrowserRouter basename={process.env.REACT_APP_BASENAME || ""}>
+    <Switch>
       {routes.map((route, index) => {
         return (
           <Route
@@ -26,6 +26,6 @@ export default () => (
           />
         );
       })}
-    </div>
-  </Router>
+    </Switch>
+  </BrowserRouter>
 );
