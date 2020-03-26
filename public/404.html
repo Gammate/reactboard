@@ -183,6 +183,7 @@
       top: 45%;
       height: 12px;
       width: 70px;
+      transition-duration: .2s;
     }
 
     .box .box__ghost .box__ghost-container .box__ghost-eyes .box__eye-left {
@@ -397,21 +398,26 @@
     var pageY = document.body.clientHeight || window.innerHeight
     var mouseY = 0;
     var mouseX = 0;
-    var ghost_eyes = document.querySelector('.box__ghost-eyes')
-    var isOnWait = false;
-    document.addEventListener('mousemove', (event) => {
-      if (isOnWait) return isOnWait = !isOnWait;
+    var ghost_eyes = document.querySelector('.box__ghost-eyes');
+    document.addEventListener('mousemove', handleMouseMove);
+    function handleMouseMove(event) {
+      document.removeEventListener('mousemove', handleMouseMove);
       setTimeout(() => {
-        isOnWait = !isOnWait;
-        //verticalAxis
-        mouseY = event.pageY;
-        yAxis = (pageY / 2 - mouseY) / pageY * 300;
-        //horizontalAxis
-        mouseX = event.pageX / -pageX;
-        xAxis = -mouseX * 100 - 100;
-        ghost_eyes.style.transform = `translate(${Math.round(xAxis)}%,-${Math.round(yAxis)}%)`;
-      }, 200);
-    });</script>
+        document.addEventListener('mousemove', handleMouseMove);
+      }, 150);
+      doCalculationAndMove(event);
+      // console.log('handleMouseMove');
+    }
+    function doCalculationAndMove(event) {
+      //verticalAxis
+      mouseY = event.pageY;
+      yAxis = (pageY / 2 - mouseY) / pageY * 300;
+      //horizontalAxis
+      mouseX = event.pageX / -pageX;
+      xAxis = -mouseX * 100 - 100;
+      // console.log(`translate`)
+      ghost_eyes.style.transform = `translate(${Math.round(xAxis)}%,${-Math.round(yAxis)}%)`;
+    }</script>
 </body>
 
 </html>
