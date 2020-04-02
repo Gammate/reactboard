@@ -2,7 +2,7 @@
   "name": "shards-dashboard-lite-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://depresse.ir/",
+  "homepage": "https://gammate.github.io/reactboard/",
   "main": "index.js",
   "dependencies": {
     "camelize": "^1.0.0",
